@@ -1,5 +1,8 @@
 let highestZ = 1;
 
+let myAudio = document.querySelector('#audio')
+myAudio.play()
+
 class Paper {
   holdingPaper = false;
   touchStartX = 0;
